@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf"8>
+        <title>Unit 04 Notes - Forms</title>
+    </head>
+    <body>
+        <h1>Apply for College</h1>
+        <form>
+            <form action="mailto:slynch05@syr.edu" method="POST">
+                <!-- action mailto is going to send an email of our form data -->
+                <!-- post method is required with mailto action -->
+                <!-- post sends form data with website headers -->
+
+                <label for="firstname"> Type your first name:</label>
+                <input type="text" name="firstname" id="firstname"><br>
+                <!-- the for attribute in label corresponds to the id attribute in input-->
+                <!-- the values must be the same to associate the lab with form field -->
+
+                <label for="comments">Comments?</label>
+                <textarea name="comments" id="comments" rows="10" cols="100">Type your comments here.</textarea><br>
+
+                <!-- the only place white space matters is in default text for text area -->
+
+                <p>Please choose your year in school.</p>
+                <input type="radio" name="schoolyear" id="schoolyearfr" value="freshman">
+                <label for="schoolyearfr"> freshman</label>
+                <input type="radio" name="schoolyear" id="schoolyearso" value="freshman">
+                <label for="schoolyearso"> sophomore</label>
+                <input type="radio" name="schoolyear" id="schoolyearju" value="freshman">
+                <label for="schoolyearju"> junior</label>
+                <input type="radio" name="schoolyear" id="schoolyearse" value="freshman">
+                <label for="schoolyearse"> senior</label><br>
+
+                <!-- the value of for in label must be unique -->
+                <!-- the name of all the radio buttons must be the same -->
+                <!-- that's what links them together -->
+
+                <input type="checkbox" name="veteran" id="veteran" value="Yes">
+                <label for="veteran">Veteran?</label><br>
+
+                <label for="start"> When are you starting?</label>
+                <select names="start" id="start">
+                    <option value="F21"> Fall 2021</option>
+                    <option value="S22"> Spring 2022</option>
+                </select><br>
+
+                <input type="submit" value="Send Application">
+        </form>
+    </body>
+</html>
