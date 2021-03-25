@@ -1,0 +1,36 @@
+h1 {
+    color: #ff6666;
+}
+h2, h3 {
+    color: #ff9999;
+}
+p {
+    color: #ffb3b3
+}
+a:link {
+    color: #ff8c66
+}
+a:visited {
+    color: #ffd966
+}
+a:hover {
+    color: #ffb366
+}
+caption {
+    color: #ff6666;
+}
+body {
+    color:#ff8c66
+}
+nav {
+    background-color: #ffb366;
+    color: #ff6666;
+}
+nav a {
+    color: #ff6666;
+}
+nav a:hover {
+    background-color: #e6ccff
+}
+nav {padding:10px}
+nav {margin-bottom:30px}
