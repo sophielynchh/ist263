@@ -1,0 +1,59 @@
+h1 {
+    color: #ff6666;
+}
+h2, h3 {
+    color: #ff9999;
+}
+p {
+    color: #ffb3b3; margin: 30px
+}
+a:link {
+    color: #ff8c66
+}
+a:visited {
+    color: #ffd966
+}
+a:hover {
+    color: #ffb366
+}
+caption {
+    color: #ff6666;
+}
+body {
+    color:#ff8c66
+}
+nav {
+    background-color: #ffb366;
+    color: #ff6666;
+}
+nav a {
+    color: #ff6666;
+}
+nav a:hover {
+    background-color: #e6ccff
+}
+nav {padding:10px}
+nav {margin-bottom:30px}
+
+img {width: 150px;}
+.firstimage {
+float: left;
+margin: 0px 20px 10px 0px; }
+
+.motto {float: right;}
+
+.article00 {
+    float: left; background-color: lightyellow; margin-left: 30px }
+
+.article0 {
+    float: right; background-color: lightyellow; margin-right: 700px;
+}
+.part1 {background-color: lightyellow; margin: 30px; padding: 10px ; border-radius: 2em ;}
+
+
+.part2 {display: flex; margin: 30px; }
+
+.article1 {flex: 1; order: 2; background-color: lightyellow; border-radius: 2em; padding: 40px; }
+.article2 {flex: 1; order: 1; background-color: lightyellow; border-radius: 2em; padding: 40px; }
+
+
