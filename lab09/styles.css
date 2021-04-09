@@ -49,15 +49,20 @@ margin: 0px 20px 10px 0px; }
     float: right; background-color: lightyellow; margin-right: 700px;
 }
 .part1 {background-color: lightyellow; margin: 30px; padding: 10px ; border-radius: 2em ;}
-    {flex-wrap: wrap;}
 
 .part2 {display: flex; margin: 30px; }
-    {flex-wrap: wrap;}
+
 
 .article1 {flex: 1; order: 2; background-color: lightyellow; border-radius: 2em; padding: 40px; }
 .article2 {flex: 1; order: 1; background-color: lightyellow; border-radius: 2em; padding: 40px; }
 
+.secondimage {max-width: 100%;} 
+.firstimage {max-width: 100%}
+
+.part2 {flex-wrap: wrap;}
+
 @media only screen and (max-width: 600px) {
-    nav {width: 100%; display: block; }
-    span {display: none; }
+    nav a {max-width: 100%; display: block; }
+        nav span {display: none;}
+}
 
