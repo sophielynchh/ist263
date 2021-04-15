@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 10 Accessibility</title>
+        <style>
+            #skipbutton {
+                position: absolute;
+                /* position based on top left of viewport */
+                left: -999px;
+                /* means the element is off screen */
+            }
+            /* when the item is tab to */
+            #skipbutton:focus {
+                position: absolute;
+                left: 10px; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Unit 10 Notes</h1>
+        <!-- headings should be heirarchial and only 1 h1 -->
+
+        <img src="../images/LI-In-Bug.png" alt="linkedIn logo">
+        <!-- nothing inside alt quotes means screen reader skips -->
+        <!-- dont say image of or picture of, etc. -->
+        <a id="skipbutton" a href="#maincontent">Skip to Content</a>
+        <!-- anchor link. links lower on page -->
+
+        <a href="http:\\www.google.com" tabindex="2">Google</a>
+        <a href="http:\\www.amazon.com" tabindex="3">Amazon</a>
+        <a href="http:\\www.ebay.com" tabindex="4">Ebay</a>
+        <!-- changes the order of item selected when you press tab -->
+
+        <a id="maincontent"></a>
+        <p>Cupcake danish topping tootsie roll chupa chups sweet roll. Toffee chocolate cake dessert gummi bears candy canes cake.</p>
+    </body>
+</html>

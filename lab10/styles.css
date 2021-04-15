@@ -1,0 +1,83 @@
+h1 {
+    color: #ff6666;
+    font-size: 60px;
+}
+h2, h3 {
+    color: #ff9999;
+    font-size: 50px;
+}
+p {
+    color: #ffb3b3; margin: 30px;
+    font-size: 30px;
+}
+a:link {
+    color: #ff8c66;
+    font-size: 30px;
+}
+a:visited {
+    color: #ffd966;
+    font-size: 30px;
+}
+a:hover {
+    color: #ffb366;
+    font-size: 30px;
+}
+caption {
+    color: #ff6666;
+    font-size: 30px;
+}
+body {
+    color:#ff8c66;
+    font-size: 30px;
+}
+nav {
+    background-color: #ffb366;
+    color: #ff6666;
+}
+nav a {
+    color: #ff6666;
+}
+nav a:hover {
+    background-color: #e6ccff
+}
+nav {padding:10px}
+nav {margin-bottom:30px}
+
+img {width: 150px;}
+.firstimage {
+float: left;
+margin: 0px 20px 10px 0px; }
+
+.motto {float: right;}
+
+.article00 {
+    float: left; background-color: lightyellow; margin-left: 30px }
+
+.article0 {
+    float: right; background-color: lightyellow; margin-right: 700px;
+}
+.part1 {background-color: lightyellow; margin: 30px; padding: 10px ; border-radius: 2em ;}
+
+.part2 {display: flex; margin: 30px; }
+
+
+.article1 {flex: 1; order: 2; background-color: lightyellow; border-radius: 2em; padding: 40px; }
+.article2 {flex: 1; order: 1; background-color: lightyellow; border-radius: 2em; padding: 40px; }
+
+.secondimage {max-width: 100%; float: right; } 
+.firstimage {max-width: 100%}
+
+.part2 {flex-wrap: wrap;}
+
+#skipbutton {
+    position: absolute;
+
+    left: -999px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav a {max-width: 100%; display: block; }
+        nav span {display: none;}
+}
+
