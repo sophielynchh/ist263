@@ -3,31 +3,31 @@ h1 {
     font-size: 60px;
 }
 h2, h3 {
-    color: #ff9999;
+    color: #8533ff;
     font-size: 50px;
 }
 p {
-    color: #ffb3b3; margin: 30px;
+    color: #000; margin: 30px;
     font-size: 30px;
 }
 a:link {
-    color: #ff8c66;
+    color: #a366ff;
     font-size: 30px;
 }
 a:visited {
-    color: #ffd966;
+    color: #3366ff;
     font-size: 30px;
 }
 a:hover {
-    color: #ffb366;
+    color: #d1b3ff;
     font-size: 30px;
 }
 caption {
-    color: #ff6666;
+    color: #000;
     font-size: 30px;
 }
 body {
-    color:#ff8c66;
+    color:#000;
     font-size: 30px;
 }
 nav {
