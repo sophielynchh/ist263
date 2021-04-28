@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Part 2</title>
+        <style>
+            #hamicon {display: none;}
+            nav a:hover {background-color: lightseagreen;}
+            @media only screen and (max-width: 600px) {
+                span {display: none;}
+                #hamicon {display: block;}
+                nav a {
+                    display: block;
+                    padding: 10px 0px;
+                    }
+                #navlinks {display: none;}
+            }
+        </style>
+        <script> 
+            function changenav() {
+
+                /* the if below is say if the navlink */
+               if (document.getElementbyID("navlinks").style.getPropertyValue("display") == 'block') {
+                   document.getElementbyID("navlinks").style.display = "none";
+
+               }
+               else {
+                    document.getElementbyID("navlinks").style.display = "block";
+               }
+            }
+        </script>
+    </head>
+    <body>
+        <!--
+            HTML:
+            1. add image for hamburger 
+
+            CSS:
+            2. show hamburger only when the screen is small 
+            3. hide the stacked nav when the screen small
+
+            JavaScript:
+            4. turn on the stacked nav when the user clicks the hamburger
+            5. turn stacked nav back off when the user clicks the hamburger again
+        -->
+        <nav>
+            <img src="https://laferger.github.io/ist263/images/hamburger.png" id="hamicon" width="35" alt="hamburger icon" onclick="changenav();">
+            <!-- clicking on hamburger change visability of navlinks below -->
+            <div id="navlinks"></div>
+                <a href="index.html">Home</a> <span>|</span> 
+                <a href="skills.html">Skills</a> <span>|</span> 
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+
+        
+       
+    </body>
+</html>

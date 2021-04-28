@@ -1,0 +1,42 @@
+h2 {font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgb(121, 62, 116); 
+   font-size: larger;
+}
+h1 {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: xx-large;
+}
+h3 {
+    font-variant: small-caps;
+}
+h4 {
+    font-style: italic;
+}
+a:hover {
+    color: black;
+    background-color: rgb(255, 182, 255);
+}
+a:visited {
+    color: rgb(121, 62, 116);
+}
+
+
+/* image css */
+.tiktok1 {float: left; padding: 20px }
+.tiktok2 {float: right; padding: 20px }
+.tiktok3 {float: left; padding: 20px }
+.biophoto {float: left; padding: 20px }
+.gucciad {float: left; padding: 20px }
+.squishig {float: right; padding: 20px }
+
+
+
+.nameandwelcome {text-align: center;}
+
+.firstrow {flex-wrap: flex; border: 1px solid black; padding: 10px; margin: 10px }
+
+.secondrow {flex-wrap: flex; border: 1px solid black; padding: 10px; margin: 10px }
+
+.thirdrow {flex-wrap: flex; border: 1px solid black; padding: 10px; margin: 10px }
+
+.fourthrow {flex-wrap: flex; border: 1px solid black; padding: 10px; margin: 10px }
