@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    letter-spacing: -1.8mm;
+    font-size: 13mm;
+}
+
+
+.header {
+    text-align: center;
+    font-style: italic;
+    font-size: 5mm;
+}
+.pheader {
+    text-align: center;
+}
+
+.flapperheader {margin-top: 15mm; }
+
+p {padding: 8mm; }
+
+.price {
+    font-variant: small-caps;
+    font-size: 3mm;
+}
+img {
+    padding-bottom: 10mm;
+}
+
+.flapperdress {float: left; padding: 5mm;
+}
+
+.flappergirl {float: left;
+}
