@@ -1,6 +1,7 @@
 h1 {
     color: #4d4dff;
     font-size: 60px;
+    font-family: 'Playfair Display', serif;
 }
 h2, h3 {
     color: #8533ff;
@@ -80,4 +81,3 @@ margin: 0px 20px 10px 0px; }
     nav a {max-width: 100%; display: block; }
         nav span {display: none;}
 }
-
