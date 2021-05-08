@@ -8,12 +8,17 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         
     </head>
-    <body>
+    <script>
+          function SayHello() {
+                alert("Welcome to my Blog! XOXO, Sophie");
+            }
+    </script>
+    <body onload="SayHello();">
      
         <div class="nameandwelcome">
             <h1>Sophie Lynch</h1>
             <img src="blog.png" class="blogcover" alt="blog cover" width="200">
-            <h2>Welcome to my blog!</h2>
+            <h2 class="welcome">Welcome to my blog!</h2>
         </div>
         <nav>
             <a href="homepage.html">Home &#124;</a> <a href="aboutme.html">About Me &#124;</a> <a href="newcontact.html"> Contact &#124; </a><a href="beauty.html">Beauty &#124;</a><a href="wellness.html">Wellness</a> 
@@ -64,7 +69,7 @@
                         <a href="beauty.html">Read more</a>
                     </nav>
             </article>
-            
+
     <footer>
         <p>
             Sophie Lynch's Blog &copy;2021

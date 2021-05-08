@@ -1,7 +1,11 @@
-h2 {font-family: Georgia, 'Times New Roman', Times, serif;
+.welcome {font-family: Georgia, 'Times New Roman', Times, serif;
    color: #3b73e4 ; 
    font-size: larger;
 }
+h2 {font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black ; 
+    font-size: larger;}
+
 h1 {font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
     font-size: xx-large;
