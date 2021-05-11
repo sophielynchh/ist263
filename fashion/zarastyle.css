@@ -13,12 +13,32 @@ h1 {
 .pheader {
     text-align: center;
 }
+.aheader {
+    text-align: center; 
+    font-variant: small-caps;
+}
+nav {
+    font-variant: small-caps; 
+    font-size: smaller;
+}
+
+a:hover {
+    color: black;
+    background-color: #e6eeff;
+}
+a:visited {
+    color: black;
+}
 
 .flapperheader {margin-top: 15mm; }
+.newlookheader {margin-top: 15mm;}
+.frillsheader {margin-top: 15mm;}
+.glovesheader {margin-top: 15mm; }
+.hatheader, .necklaceheader {margin-top: 15mm;  }
 
 p {padding: 8mm; }
 
-.price {
+.price, .price2, .price3, .price4, .price5, .price6 {
     font-variant: small-caps;
     font-size: 3mm;
 }
@@ -28,6 +48,18 @@ img {
 
 .flapperdress {float: left; padding: 5mm;
 }
+.newlook {float: left; padding: 5mm;}
+.frills {float: left; padding: 5mm;}
+.glovesimg {float: left; padding: 5mm;}
+.hatimg {float: left; padding: 5mm; }
+.necklaceimg {float: left; padding: 5mm; }
 
-.flappergirl {float: left;
-}
+
+.flappergirl {float: left; }
+.thenewlook {float: left;}
+.victorianfrills {float: left;}
+.accessoriesgloves {float: left;}
+.accessorieshat {float: left;}
+.accessoriesnecklace {float: left; }
+
+.flappergirl, .thenewlook, .victorianfrills, .accessoriesgloves, .accessorieshat, .accessoriesnecklace {display: flex; flex: 1;}
