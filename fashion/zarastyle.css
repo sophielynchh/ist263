@@ -35,10 +35,11 @@ a:visited {
 .frillsheader {margin-top: 15mm;}
 .glovesheader {margin-top: 15mm; }
 .hatheader, .necklaceheader {margin-top: 15mm;  }
+.schoolgirlheader {margin-top: 15mm;}
 
 p {padding: 8mm; }
 
-.price, .price2, .price3, .price4, .price5, .price6 {
+.price, .price2, .price3, .price4, .price5, .price6, .price7 {
     font-variant: small-caps;
     font-size: 3mm;
 }
@@ -53,6 +54,7 @@ img {
 .glovesimg {float: left; padding: 5mm;}
 .hatimg {float: left; padding: 5mm; }
 .necklaceimg {float: left; padding: 5mm; }
+.schoolimg {float: left; padding:5mm; }
 
 
 .flappergirl {float: left; }
@@ -61,5 +63,6 @@ img {
 .accessoriesgloves {float: left;}
 .accessorieshat {float: left;}
 .accessoriesnecklace {float: left; }
+.schoolgirl {float: left;}
 
-.flappergirl, .thenewlook, .victorianfrills, .accessoriesgloves, .accessorieshat, .accessoriesnecklace {display: flex; flex: 1;}
+.flappergirl, .thenewlook, .victorianfrills, .accessoriesgloves, .accessorieshat, .accessoriesnecklace, .schoolgirl {display: flex; flex: 1;}
