@@ -66,3 +66,7 @@ img {
 .schoolgirl {float: left;}
 
 .flappergirl, .thenewlook, .victorianfrills, .accessoriesgloves, .accessorieshat, .accessoriesnecklace, .schoolgirl {display: flex; flex: 1;}
+
+.background {text-align: center; flex-wrap: flex; border: 1px solid black; padding: 10px; margin: 100px; margin-top: 50px; 
+    font-family: 'Courier New', monospace; font-size: medium; 
+}
